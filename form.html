@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- application number starts here -->
+  <!-- <main class=""></main> -->
+  <div class="flex flex-col w-full">
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md ">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">1. Application Number &#35;</div>
+      <div class="flex w-full l md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <input type="text" placeholder="Enter application number here"
+            class=" rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+      </div>
+    </div>
+    <!-- Region choices starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">2. Region</div>
+      <div class="flex w-full md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <div class="bg-none">
+            <input type="text" placeholder="Select region"
+              class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Name Div starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">3. Name</div>
+      <div class="flex flex-wrap w-full gap-10  md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <label for="" class="block">Family Name</label>
+          <input type="text" placeholder="Surname"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+        <div class="">
+          <label for="" class="block">First Name</label>
+          <input type="text" placeholder="e.g. John"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+        <div class="">
+          <label for="" class="block">Middle Name</label>
+          <input type="text" placeholder="e.g. Charlie" class="mt-2 rounded border border-gray-200 py-2 px-8 w-full">
+        </div>
+      </div>
+    </div>
+    <!-- Gender Div starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">4. Gender</div>
+      <div class="flex w-full md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <div class="bg-none">
+            <input type="text" placeholder="Select gender"
+              class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DOB starts here-->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">5. Date of Birth</div>
+      <div class="flex w-full flex-wrap gap-10 md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <label for="" class="block">Month</label>
+          <input type="text" placeholder="Select Month"
+            class=" rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+        <div class="">
+          <label for="" class="block">Day</label>
+          <input type="text" placeholder="Day" class=" rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+        <div class="">
+          <label for="" class="block">Year</label>
+          <input type="text" placeholder="Year" class="rounded border border-gray-200 py-2 px-8 w-full">
+        </div>
+      </div>
+    </div>
+    <!-- Birth Place starts here-->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">6. Birth Place</div>
+      <div class="flex w-full flex-wrap gap-10 md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <label for="" class="block">City</label>
+          <input type="text" placeholder="Enter city"
+            class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+        <div class="">
+          <label for="" class="block">Country</label>
+          <input type="text" placeholder="Enter Country of Birth"
+            class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+        <div class="">
+          <label for="" class="block">Eligibility</label>
+          <input type="text" placeholder="Enter country of Eligibility"
+            class="rounded border border-gray-200 py-2 px-8 w-full">
+        </div>
+      </div>
+    </div>
+    <!-- Contact details starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">7. Contact Details</div>
+      <div class="flex w-full flex-wrap gap-10 md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <label for="" class="block">Phone</label>
+          <input type="tel" placeholder="Whatsap &#35;"
+            class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+        <div class="">
+          <label for="" class="block">Email</label>
+          <input type="email" placeholder="myemail@company.com"
+            class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+      </div>
+    </div>
+    <!-- Highest education starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">8. Education</div>
+      <div class="flex w-full md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <input type="text" placeholder="Highest Education"
+            class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+      </div>
+    </div>
+    <!-- No of Children starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">9. Children</div>
+      <div class="flex w-full md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <input type="number" placeholder="Number of Children"
+            class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+      </div>
+    </div>
+    <!-- Marital status starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">10. Marital Status</div>
+      <div class="flex w-full md:min-w-full md:mx-8 px-3 my-6">
+        <div class="bg-none">
+          <input type="text" placeholder="Select Marital Status"
+            class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Spouse Details Goes Here Conditional-->
+
+  <div class="hidden">
+    <!-- Name Div starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">1. Name</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <label for="" class="block">Family Name</label>
+          <input type="text" placeholder="Surname"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">First Name</label>
+          <input type="text" placeholder="e.g. John"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Middle Name</label>
+          <input type="text" placeholder="e.g. Charlie" class="mt-2 rounded border border-gray-200 py-2 px-8">
+        </div>
+      </div>
+    </div>
+    <!-- Gender Div starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">2. Gender</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <div class="bg-none">
+            <input type="text" placeholder="Select gender"
+              class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DOB starts here-->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">3. Date of Birth</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <label for="" class="block">Month</label>
+          <input type="text" placeholder="Select Month"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Day</label>
+          <input type="text" placeholder="Day" class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Year</label>
+          <input type="text" placeholder="Year" class="mt-2 rounded border border-gray-200 py-2 px-8">
+        </div>
+      </div>
+    </div>
+    <!-- Birth Place starts here-->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">4. Birth Place</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <label for="" class="block">City</label>
+          <input type="text" placeholder="Enter city"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Country</label>
+          <input type="text" placeholder="Enter Country of Birth"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Children Details Goes Here -->
+  <!-- application number starts here -->
+
+  <div class="hidden">
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">1. Dress Color</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <input type="text" placeholder="Enter dress color here"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+        </div>
+      </div>
+    </div>
+    <!-- Name Div starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">2. Name</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <label for="" class="block">Family Name</label>
+          <input type="text" placeholder="Surname"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">First Name</label>
+          <input type="text" placeholder="e.g. John"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Middle Name</label>
+          <input type="text" placeholder="e.g. Charlie" class="mt-2 rounded border border-gray-200 py-2 px-8">
+        </div>
+      </div>
+    </div>
+    <!-- Gender Div starts here -->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">3. Gender</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <div class="bg-none">
+            <input type="text" placeholder="Select gender"
+              class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DOB starts here-->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">4. Date of Birth</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <label for="" class="block">Month</label>
+          <input type="text" placeholder="Select Month"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Day</label>
+          <input type="text" placeholder="Day" class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Year</label>
+          <input type="text" placeholder="Year" class="mt-2 rounded border border-gray-200 py-2 px-8">
+        </div>
+      </div>
+    </div>
+    <!-- Birth Place starts here-->
+    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+      <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">5. Birth Place</div>
+      <div class="flex w-full md:min-w-full mx-8 my-6">
+        <div class="bg-none">
+          <label for="" class="block">City</label>
+          <input type="text" placeholder="Enter city"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+        <div class="">
+          <label for="" class="block">Country</label>
+          <input type="text" placeholder="Enter Country of Birth"
+            class="mt-2 mr-20 rounded border border-gray-200 py-2 px-8 shadow-inner">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
+<!-- 
+  application_number = models.IntegerField(null=False, blank=False)
+    region = models.CharField(max_length=20, choices=REGION_CHOICES, default='dar')
+    family_name = models.CharField(null=False, blank=False, max_length=255)
+    first_name = models.CharField(null=False, blank=False, max_length=255)
+    middle_name = models.CharField(null=False, blank=False, max_length=255)
+    gender = models.CharField(max_length=10,choices=GENDER_CHOICES)
+    month_B = models.DateField(max_length=255, choices=MONTH_CHOICES)
+    day_B = models.PositiveIntegerField(blank=False)
+    year_B = models.PositiveIntegerField(blank=False)
+    birth_city = models.CharField(max_length=255)
+    birth_country = models.CharField(max_length=255)
+    eligibility_country = models.CharField(max_length=255)
+    phone = models.CharField(max_length=255)
+    email = models.EmailField(max_length=255)
+    highest_education = models.CharField(max_length=255)
+    no_of_children = models.PositiveIntegerField(null=True)
+    marital_status = models.CharField(max_length=255, choices=MARITAL_CHOICES)
+ -->
