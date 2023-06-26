@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./script.js" defer></script>
 </head>
 
 <body>
@@ -133,15 +134,22 @@
       </div>
     </div>
     <!-- No of Children starts here -->
-    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+    <div id="kidsBookingForm" class="my-3 mx-6 rounded border border-slate-200 shadow-md">
       <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">9. Children</div>
       <div class="flex w-full md:min-w-full md:mx-8 px-3 my-6">
         <div class="bg-none">
-          <input type="number" placeholder="Number of Children"
+          <input  id="kidsInput" type="number" placeholder="Number of Children"
             class="rounded border border-gray-200 py-2 px-8 shadow-inner w-full">
         </div>
       </div>
+      <div id="kidsForm" class="md:mx-6 px-3 hidden">
+        <h2 class="text-lg font-bold mt-4">Kids' Details</h2>
+        <!-- <label for="kidsInput" class="block mb-2">Number of Kids:</label> -->
+        <textarea id="kidsInput" class=" w-full border border-gray-300 px-2 py-1" ></textarea>
+        <!-- Add more inputs for kids' details here as needed -->
+      </div>
     </div>
+
     <!-- Marital status starts here -->
     <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
       <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">10. Marital Status</div>
@@ -272,7 +280,7 @@
       </div>
     </div>
     <!-- DOB starts here-->
-    <div class="my-3 mx-6 rounded border border-slate-200 shadow-md">
+    <div id="familyBookingForm" class="my-3 mx-6 rounded border border-slate-200 shadow-md">
       <div class="block bg-slate-400 rounded-t-sm  h-8 px-4 w-full text-lg text-white">4. Date of Birth</div>
       <div class="flex w-full md:min-w-full mx-8 my-6">
         <div class="bg-none">
